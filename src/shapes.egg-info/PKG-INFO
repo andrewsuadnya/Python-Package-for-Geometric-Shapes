@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: shapes
+Version: 0.0.0
+Summary: shapes package
+Author: andrews
+Author-email: andrewsuadnya0@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: moto; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+package for calculating areas and perimeters of shapes

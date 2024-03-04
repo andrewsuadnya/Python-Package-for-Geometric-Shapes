@@ -1,0 +1,7 @@
+
+[dev]
+pytest
+pytest-cov
+moto
+tox
+flake8
