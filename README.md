@@ -10,7 +10,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Shapes.
 pip install -e .
 ```
 
-# Usage
+## Usage
 ```
 from src.shapes.circle import Circle
 from src.shapes.rectangle import Rectangle
@@ -31,18 +31,18 @@ print(f"Area of the circle: {area_circle}")
 print(f"Perimeter of the rectangle: {perimeter_rectangle}")
 ```
 
-# Development
+## Development
 Install Development Dependencies
 ```
 pip install -e .[dev]
 ```
 
-# Run Tests
+## Run Tests
 ```
 tox
 ```
 
-# Code Style (Flake8)
+## Code Style (Flake8)
 ```
 flake8 src/ tests/
 ```
